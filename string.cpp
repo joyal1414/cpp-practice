@@ -10,15 +10,26 @@ int main()
     cout << c << endl;
     cout << z << endl;
 
-    string v = "jo yal";
+    string v = "joyal";
     cout << v.size() << endl;
     cout << v.length() << endl;
     cout << "\t" << v[0] << endl;
     cout << "\t" << v[1] << endl;
+    cout << "\t" << v[2] << endl;
     cout << "\t" << v[3] << endl;
     cout << "\t" << v[4] << endl;
     cout << "\t" << v[5] << endl;
-    cout << endl;
+    cout << endl
+         << v<< endl;                    
+ 
+ 
+ 
+ 
+    string fullname;
+
+    cout<<"ENTER YOUR FULL NAME: ";
+    getline(cin,fullname);
+cout<<fullname;
 
     return 0;
 }
