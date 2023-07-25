@@ -3,10 +3,14 @@ using namespace std;
 int main()
 {
 
-    int age;
+    int i,age;
 
     string NAME, CRIMINAL, W;
-
+    cout<<"ENTER THE NUMBER OF ENTRY:";
+    cin>>i;
+    while (i>0)
+    {
+        
     cout << "ENTER YOUR AGE:";
     cin >> age;
     if (age >= 18)
@@ -20,7 +24,7 @@ int main()
         {
             cout << "ENTER YOUR NAME:";
             cin >> NAME;
-            cout << "YOUR ENTERD NAME IS " << NAME;
+            cout << "YOUR ENTERD NAME IS \n" << NAME;
         }
         else if (CRIMINAL == "Y" || CRIMINAL == "y")
         { cout << "you are not eligible\n";}
@@ -30,8 +34,11 @@ int main()
         }
         
         else
-        {cout << "YOU HAVE ENTERED WRONG INPUT PLEASE TRY AGAIN -_-";}
+        {cout << "YOU HAVE ENTERED WRONG INPUT PLEASE TRY AGAIN -_-\n";}
     }
+    }
+    
+
         return 0;
         
         }
